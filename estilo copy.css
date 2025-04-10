@@ -1,15 +1,12 @@
 * {
-
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
-
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .painel {
     border: 1px solid #d4d2d2;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
     width: 25rem;
     height: 22rem;
     margin: 1rem auto;
@@ -17,36 +14,42 @@
 }
 
 .cabecalho,
-.corpo{
-background-color: ;
-padding:1rem;
-color:#787373 ;
-font-weight:bolder ;
-width: 23rem;
-border-radius: .5rem;
-
+.corpo {
+    background-color: #d4d2d2;
+    padding: 1rem;
+    color: #787373;
+    font-weight: bolder;
+    width: 23rem;
+    border-radius: .5rem;
 }
-
 
 .cabecalho {
     height: 4rem;
     margin-bottom: 1rem;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.entrada
-{
-    width:7rem;
-}
-.corpo{
-    height: :13rem;
+.entrada {
+    width: 7rem;
 }
 
-.corpo #resp {
+.corpo {
+    height: 13rem;
+}
+
+#resp {
     width: 23rem;
     height: 20rem;
     border-radius: .5rem;
+}
+button{
+
+background-color: blue;
+color:white;
+border: none;
+padding: ;
+
 
 }
